@@ -4,21 +4,10 @@
   
   `def plus(a, b)` 在此例中你看不到任何型態 -- 用 Golang 的說法就是 `interface{}` ，就是接受所有型態。
 
-  此時我們定義一個行為： `def plus(a, b): return a+b`。傳入 `plus("123", "456")` 會得到 `123456`，傳入 `plus(123,456)` 會得到 `579` -- 但 `plus("123", 456)` 呢？
 
-      TypeError: can only concatenate str (not "int") to str
-
-  string 不能加 int -- 因此 Python 也是有型態之分，但不是如一般強型態語言分得如此清楚而已。
-    
-- Python 不是門編譯型語言
-  
-  假如我們建立個檔案 `test.py` ，內容是 `print("Hello!")` -- 執行方法就是 `python3 test.py`
-  
-  但就會有人如此問道：「假如某人沒有安裝 Python…… 那他能執行我的程式嗎？」 -- 答案是不行，必須得先安裝 Python 才能執行程式。
-  但有些第三方程式會將 python 和指令碼包在一起當成一個 exe，其實也行，但檔案將十分肥大，且並不是真正的「編譯」，而是「包裝」而已。
 
 ## 安裝 Python
-如《Python 不是門編譯型語言》所敘，必須先安裝 Python 才能執行 Python 程式。我想網路上已經有足夠多的教學可以教導您如何安裝 Python，這裡不重複敘述。
+
 
 ## 寫出你的第一個程式！
 
