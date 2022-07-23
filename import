@@ -1,0 +1,21 @@
+import urllib3  #訪問web,下載
+import urllib.parse
+import requests
+
+import pymssql  #ms sql
+import cursor #資料庫連線物件
+
+import timedatetime   #時間
+import os,sys #基本,系統
+from bs4 import BeautifulSoup #爬蟲套件
+from selenium import webdriver #爬蟲套件,goolgle,id,Firefox
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from spiderscomm.customUserAgent import  RandomUserAgent  as UAT
+#from goto import with_goto #goto無條件地分支
+from lxml import etree #xml
+import json #json
+from multiprocessing import Pool #非同步
+import random #隨機
+import threading #執行緒
