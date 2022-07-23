@@ -21,7 +21,7 @@
 如《Python 不是門編譯型語言》所敘，必須先安裝 Python 才能執行 Python 程式。我想網路上已經有足夠多的教學可以教導您如何安裝 Python，這裡不重複敘述。
 
 ## 寫出你的第一個程式！
-![早期終端機](https://upload.wikimedia.org/wikipedia/commons/7/76/ASR-33_1.jpg "這是 ASR 33 打字機 -- 感謝 Wikimedia 提供的圖片。")
+
 
 這裡想要講一下終端機的歷史 -- 這對接下來寫程式理解更有幫助。
 
