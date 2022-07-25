@@ -20,6 +20,9 @@ Pyton目前較主流的領域
 ## Python馬上就上手
 
 >開發環境設定與安裝
+* Spyder (新手)
+* Pycharm (推薦) 社區版
+ [https://www.jetbrains.com/pycharm/]
 
 >基本概念
 
