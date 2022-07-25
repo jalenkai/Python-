@@ -22,7 +22,7 @@ Pyton目前較主流的領域
 >開發環境設定與安裝
 * Spyder (新手)
 * Pycharm (推薦) 社區版
- [https://www.jetbrains.com/pycharm/]
+ [Pycharm官方網址](https://www.jetbrains.com/pycharm/)
 
 >基本概念
 
