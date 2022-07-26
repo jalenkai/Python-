@@ -29,6 +29,41 @@ Pyton目前使用上的領域
 * Jupyter Notebook[jupyter官方網址](https://jupyter.org/install)
   
 >基本概念
+* 檢查版本
+```
+import sys
+
+print(sys.version_info)
+print(sys.version)
+```
+* 用文字編輯器撰寫python程式(建議使用以上開發工具)
+```
+print('hello, world!')
+```
+* 運行程序
+```
+python hello.py
+```
+* 註釋
+```
+#單行註釋 - 以#和空格開頭的部分
+#多行註釋 - 三個引號開頭，三個引號結尾
+```
+* import套件
+```
+import turtle
+
+turtle.pensize(4)
+turtle.pencolor('red')
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.mainloop()
+```
 
 >變數命名
 * 數字、大小寫英文、底線(不建議中文及外文)
