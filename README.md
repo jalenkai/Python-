@@ -24,10 +24,11 @@ Pyton目前使用上的領域
 ## Python馬上就上手
 
 >開發環境設定與安裝
-* Spyder (新手)
-* Pycharm (推薦) 社區版
- [Pycharm官方網址](https://www.jetbrains.com/pycharm/)
-
+* Spyder (新手)[spyder官方網址](https://www.spyder-ide.org/)
+* Pycharm (推薦) 社區版[Pycharm官方網址](https://www.jetbrains.com/pycharm/)
+* Jupyter Notebook[jupyter官方網址](https://jupyter.org/install)
+* 
+  
 >基本概念
 
 >變數命名
