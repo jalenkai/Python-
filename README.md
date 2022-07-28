@@ -49,21 +49,12 @@ python hello.py
 #單行註釋 - 以#和空格開頭的部分
 #多行註釋 - 三個引號開頭，三個引號結尾
 ```
-* import套件
-```
-import turtle
+> import套件
+* 常用套件
+- math => 數學功能的操作。
+- random => 產生隨機亂數。
+- numpy => 矩陣運算的必備套件，和python本身的list比起來，numpy-array運算速度較快，處理矩陣也較方便，不管是數值轉換方面還是矩陣加法、減法、乘法。 方便建立多維數據以及大型矩陣運算。
 
-turtle.pensize(4)
-turtle.pencolor('red')
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
-turtle.mainloop()
-```
 
 >變數命名
 * 數字、大小寫英文、底線(不建議中文及外文)
