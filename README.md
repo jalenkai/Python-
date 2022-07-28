@@ -51,14 +51,16 @@ python.exe hello.py
 ```
 > import套件
 * 套件:透過使用現成的模組與套件，我們可以減少大量重複而不必要的開發。
+* Python資料分析絕對繞不過的四個包是numpy、scipy、pandas、matplotlib。
 * 常用套件
 - math : 數學功能的操作。
 - random : 產生隨機亂數。
 - numpy : 矩陣運算的必備套件，和python本身的list比起來，numpy-array運算速度較快，處理矩陣也較方便，不管是數值轉換方面還是矩陣加法、減法、乘法。 方便建立多維數據以及大型矩陣運算。
 
-* 例如:數學運算
+* 例如:scipy 是基於 Numpy 的科學計算庫，用於數學、科學、工程學等領域
 ```
-from scipy.optimize import fsolve  # 匯入求解方程組的函式
+# 匯入求解方程組的函式
+from scipy.optimize import fsolve  
 def f(x):
     x1 = x[0]
     x2 = x[1]
@@ -74,7 +76,7 @@ pi_2, err = integrate.quad(g, -1, 1)
 print(pi_2 * 2)
 ```
 
->變數命名
+> 變數命名
 * 數字、大小寫英文、底線(不建議中文及外文)
 * 大小寫有區別
 * 開頭第一個字不可以為數字
