@@ -42,19 +42,37 @@ print('hello, world!')
 ```
 * 運行程序
 ```
-python hello.py
+python.exe hello.py
 ```
 * 註釋
 ```
-#單行註釋 - 以#和空格開頭的部分
-#多行註釋 - 三個引號開頭，三個引號結尾
+單行註釋 - 以#和空格開頭的部分
+多行註釋 - 三個引號開頭，三個引號結尾
 ```
 > import套件
+* 套件:透過使用現成的模組與套件，我們可以減少大量重複而不必要的開發。
 * 常用套件
-- math => 數學功能的操作。
-- random => 產生隨機亂數。
-- numpy => 矩陣運算的必備套件，和python本身的list比起來，numpy-array運算速度較快，處理矩陣也較方便，不管是數值轉換方面還是矩陣加法、減法、乘法。 方便建立多維數據以及大型矩陣運算。
+- math : 數學功能的操作。
+- random : 產生隨機亂數。
+- numpy : 矩陣運算的必備套件，和python本身的list比起來，numpy-array運算速度較快，處理矩陣也較方便，不管是數值轉換方面還是矩陣加法、減法、乘法。 方便建立多維數據以及大型矩陣運算。
 
+* 例如:數學運算
+```
+from scipy.optimize import fsolve  # 匯入求解方程組的函式
+def f(x):
+    x1 = x[0]
+    x2 = x[1]
+    return [2*x1 - x2**2 - 1, x1**2 - x2 - 2]
+result = fsolve(f, [1, 1])  # 輸入初始值並求解
+print(result)
+
+# 數值積分
+from scipy import integrate
+def g(x):
+    return (1 - x**2)**0.5
+pi_2, err = integrate.quad(g, -1, 1)
+print(pi_2 * 2)
+```
 
 >變數命名
 * 數字、大小寫英文、底線(不建議中文及外文)
