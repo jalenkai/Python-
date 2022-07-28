@@ -56,8 +56,15 @@ python.exe hello.py
 - math : 數學功能的操作。
 - random : 產生隨機亂數。
 - numpy : 矩陣運算的必備套件，和python本身的list比起來，numpy-array運算速度較快，處理矩陣也較方便，不管是數值轉換方面還是矩陣加法、減法、乘法。 方便建立多維數據以及大型矩陣運算。
-
-* 例如:scipy 是基於 Numpy 的科學計算庫，用於數學、科學、工程學等領域
+- scipy是基於numpy的科學計算包，包括統計、線性代數等工具。
+- requests : 訪問網站的利器。
+- BeautifulSoup : 剖析網站程式碼(爬蟲的利器)。
+- time : 時間
+- datetime : 時間
+- sys : 系統相關
+- re : 正規表示式
+  
+* 例如:scipy 
 ```
 # 匯入求解方程組的函式
 from scipy.optimize import fsolve  
